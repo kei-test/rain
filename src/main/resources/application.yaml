@@ -1,0 +1,30 @@
+spring:
+  profiles:
+    active: local
+server:
+  port: 8080
+  servlet:
+    context-path: /
+    encoding:
+      charset: UTF-8
+      enabled: true
+      force: true
+# rain
+secret:
+  secret-key: 2g9GlGmsHauaU54RARP3mswTPK39dOPn
+  ag-code: QWE0001
+  ag-token: 266Wb6q4ow7XoksYltumVdn1TA5o5fAs
+sentry:
+  dsn: https://aadc79fb077b27b707c0a0ba764d8e18@o4507327464079360.ingest.us.sentry.io/4507416411308032
+  server-name: server-rain
+  exception-resolver-order: -2147483647
+  max-request-body-size: always
+  send-default-pii: true
+  traces-sample-rate: 1.0
+
+
+
+
+#logging:
+#  level:
+#    root:
